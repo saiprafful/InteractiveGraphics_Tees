@@ -1,28 +1,53 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-  <title>Bar chart with D3.js</title>
- 
-  
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <script src="https://d3js.org/d3.v5.min.js"></script>
-  <!-- <script type="text/javascript" src="./sample_data.json"></script> -->
-
-
+	<title></title>
 </head>
-<body>
-  
-  <div id='layout'>
-    <!-- <h2>Bar chart example</h2> -->
-    <div id='container'>
-      <svg></svg>
-    </div>
-  </div>
+<style type="text/css">
+	@font-face {
+  font-family: MontserratLight;
+  src: url(fonts/Montserrat-Light.otf);
+}
+	body{
+		margin: 0;
+		overflow: hidden;
+		font-family: MontserratLight;
+	}
+	.content{
+		position: absolute;
+	    width: 65%;
+	    top: 20%;
+	    padding: 2% 3%;
+	}
+	h1{
+		font-size: 55px;
+	}
+	button{
+		background-color: transparent;
+		border: none;
+	}
+	button a{
+		color: #fff;
+		text-decoration: none;
+		background: transparent;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+	}
+	button a:hover,button a:focus{
 
+	}
+</style>
+<body>
+	<div style="background-image: url(imgs/home-bg.png);background-repeat: no-repeat;background-position: center;background-size: cover;height: 100vh;">
+		<div class="content">
+			<h1 style="color: #fff;">Data Visualisation <br>of Student Attendance</h1>
+
+			<button>
+				<a href="graphs.html">Explore</a>
+			</button>
+		</div>
+	</div>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
- <script src="maturity.js"></script>
- <link href="maturitycss.css" rel="stylesheet">
 </html>

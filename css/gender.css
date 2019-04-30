@@ -1,6 +1,11 @@
+@font-face {
+  font-family: MontserratLight;
+  src: url(../fonts/Montserrat-Light.otf);
+}
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: MontserratLight;
+  margin: 0;
 }
 
 div#layout {
@@ -8,10 +13,10 @@ div#layout {
 }
 
 div#container {
-  width: 1000px;
-  height: 600px;
+  width: 63%;
+  height: 585px;
   margin: auto;
-  background-color: #2F4A6D;
+  background-color: transparent;
 }
 
 svg {

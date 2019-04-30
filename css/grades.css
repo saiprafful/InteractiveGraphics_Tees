@@ -1,0 +1,115 @@
+@font-face {
+  font-family: MontserratLight;
+  src: url(../fonts/Montserrat-Light.otf);
+}
+
+body {
+  font-family: MontserratLight;
+  margin: 0;
+}
+
+div#layout {
+  text-align: center;
+}
+
+h2{
+  color: #fff;
+  padding-top: 35px;
+}
+
+div.container {
+  width: 1000px;
+  height: 600px;
+  margin: auto;
+  background-color: transparent;
+}
+
+svg {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+/*.bar {
+  fill: #80cbc4;
+}*/
+
+text {
+  font-size: 12px;
+  fill: #fff;
+}
+
+path {
+  stroke: #fff;
+}
+
+line {
+  stroke: #fff;
+}
+
+line#limit {
+  stroke: #FED966;
+  stroke-width: 3;
+  stroke-dasharray: 3 6;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
+.grid .tick line {
+  stroke: #9FAAAE;
+  stroke-opacity: 0.3;
+}
+
+text.divergence {
+  font-size: 14px;
+  fill: #2F4A6D;
+}
+
+text.Age {
+  font-size: 14px;
+}
+
+text.title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+text.label {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+text.source {
+  font-size: 10px;
+}
+
+/***** animation *****/
+.bar{
+  transform-origin: left bottom;
+  transform: rotate(90deg);
+  animation: linear forwards 0.5s;
+  animation-name: barchart;
+}
+@keyframes barchart{
+  from{
+    transform: rotate(90deg);
+  }
+  to{
+    transform: rotate(0deg);
+  }
+}
+/***** animation *****/
+
+
+
+.axis--x path {
+  display: none;
+}
+
+.graphline {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}

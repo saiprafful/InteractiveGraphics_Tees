@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <style type="text/css">
+    @font-face {
+      font-family: MontserratLight;
+      src: url(fonts/Montserrat-Light.otf);
+    }
+    body {
+      margin: 0;
+      overflow: hidden;
+      font-family: MontserratLight;
+    }
+    .container {
+      display: block;
+      width: 65%;
+      margin: auto;
+      height: 68%;
+      overflow-x: hidden;
+      overflow-y: auto;
+      padding: 100px 15px;
+    }
+    .container::-webkit-scrollbar {
+      width: 0 !important;
+    }
+    .card {
+      width: 42%;
+      margin: 1.5%;
+      float: left;
+      color: #fff;
+      padding: 20px;
+      background-color: #ffffff1f;
+      border-radius: 10px;
+    }
+    h2 {
+      margin-top: 0;
+      font-weight: 500;
+    }
+    button {
+      background-color: transparent;
+      border: none;
+      margin: 15px 0 15px 0;
+    }
+    button a {
+      color: #fff;
+      text-decoration: none;
+      background: transparent;
+      font-size: 20px;
+      padding: 10px 30px;
+      border: 1px solid #fff;
+      border-radius: 10px;
+    }
+    .content p {
+      line-height: 1.7;
+      font-size: 14px;
+      color: #9e9e9e;
+    }
+  </style>
+  <body>
+    <div
+      style="background-image: url(imgs/home2-bg.png);background-repeat: no-repeat;background-position: center;background-size: cover;height: 100vh;"
+    >
+      <div class="container">
+        <div style="text-align: center; color: #fff">
+          <h2>Analizing the correlations</h2>
+        </div>
+        <div class="card">
+          <div class="title">
+            <h2>Gender Vs Attendance</h2>
+          </div>
+          <div class="content">
+            <p>Correlation between Gender & Attendance.</p>
+          </div>
+          <button>
+            <a href="gender.html">View</a>
+          </button>
+        </div>
+
+        <div class="card">
+          <div class="title">
+            <h2>Grade Vs Attendance</h2>
+          </div>
+          <div class="content">
+            <p>Correlation between Grade & Attendance.</p>
+          </div>
+          <button>
+            <a href="grades.html">View</a>
+          </button>
+        </div>
+
+        <div class="card">
+          <div class="title">
+            <h2>Maturity Vs Attendance</h2>
+          </div>
+          <div class="content">
+            <p>Correlation between Maturity & Attendance.</p>
+          </div>
+          <button>
+            <a href="maturity.html">View</a>
+          </button>
+        </div>
+
+        <div class="card">
+          <div class="title">
+            <h2>Overall Attendance</h2>
+          </div>
+          <div class="content">
+            <p>
+              Correlation between Overall Attendance.
+            </p>
+          </div>
+          <button>
+            <a href="">View</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

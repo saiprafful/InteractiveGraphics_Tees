@@ -1,0 +1,63 @@
+@font-face {
+  font-family: MontserratLight;
+  src: url(../fonts/Montserrat-Light.otf);
+}
+
+body {
+  font-family: MontserratLight;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+path {
+  cursor: pointer;
+}
+
+h1{
+  color: #fff;
+  padding-top: 25px;
+  margin-bottom: 30px;
+}
+
+h3{
+  color: #fff;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto
+}
+
+input {
+  border: 1px dotted;
+  width: 50%;
+}
+
+#pieChart {
+  /* border: red 1px dotted; */
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto
+}
+
+.text-container {
+  /* border: 1px dotted; */
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#segmentText {
+  width: 100%;
+  padding: 20px;
+  text-align: centre;
+}
